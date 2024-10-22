@@ -2,7 +2,6 @@ let hours = 0;
 let minutes = 0;
 let seconds = 0;
 let intervalId;
-let a=4;
 
 document.getElementById('start-btn').addEventListener('click', startStopwatch);
 document.getElementById('stop-btn').addEventListener('click', stopStopwatch);
