@@ -1,0 +1,43 @@
+.stopwatch {
+    width: 400px;
+     margin: 50px auto; 
+    text-align: center;
+    border: 5px solid black;
+    height: 200px;
+    
+}
+
+.display {
+    font-size: 70px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+.controls button {
+    width: 80px;
+    height: 30px;
+    margin: 0 40px; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: White;
+    
+}
+
+.controls button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.controls #start-btn
+{
+ background-color: green;
+}
+.controls #stop-btn
+{
+ background-color:red;
+}
+.controls #reset-btn
+{
+ background-color:chocolate;
+}
